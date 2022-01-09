@@ -1,0 +1,23 @@
+nav li a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,white);
+    padding: 10px;
+    border-radius: 10px;}
+    
+   nav li{
+       margin:20px;
+       
+   }
+   nav li:hover{
+     background-color:greenyellow ;
+   }
+   nav ul{
+     display: flex;
+   }
+nav > ul > li:hover > ul{
+    display: block;
+} 
+  .dropdown{
+     display: none;
+     position: absolute;
+   }
